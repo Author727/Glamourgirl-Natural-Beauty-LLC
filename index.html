@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Glamourgirl Natural Beauty LLC | Loc Care in Snellville, GA</title>
+<meta name="description" content="Healthy, beautiful locs in Snellville, GA. Consultations, detox, detoxifying wash, scalp scraping, deep conditioning, lint and buildup removal, loc re-attachment and interlocking.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+<!-- Local business + FAQ schema -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "HairSalon",
+      "name": "Glamourgirl Natural Beauty LLC",
+      "image": "Glamourgirl_Natural_Beauty_LLC_Logo.jpg",
+      "telephone": "+1-470-421-9750",
+      "email": "glamourgirlnaturalhair@gmail.com",
+      "url": "https://glamourgirlnaturalbeautyllc.com/",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "1864 Scenic Hwy N Ste 100",
+        "addressLocality": "Snellville",
+        "addressRegion": "GA",
+        "postalCode": "30078",
+        "addressCountry": "US"
+      },
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
+        "opens": "09:00",
+        "closes": "17:00"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {"@type":"Question","name":"What happens during a loc consultation?","acceptedAnswer":{"@type":"Answer","text":"We examine your scalp, loc size, texture and growth pattern, talk through your goals and routine, and give you a personalized care plan with honest recommendations before any service begins."}},
+        {"@type":"Question","name":"How often should I get a detox or detoxifying wash?","acceptedAnswer":{"@type":"Answer","text":"Most clients benefit from a detox every 6 to 8 weeks. If you use a lot of products or live with hard water, we may suggest more frequent visits. Your consultation will help us set the right schedule."}},
+        {"@type":"Question","name":"Is scalp scraping safe and does it hurt?","acceptedAnswer":{"@type":"Answer","text":"Yes. We use gentle, safe techniques to lift flakes and buildup from the scalp. Most clients find it relaxing and comfortable, and it helps the scalp feel lighter and cleaner."}},
+        {"@type":"Question","name":"Can you re-attach a broken or detached loc?","acceptedAnswer":{"@type":"Answer","text":"In most cases, yes. Our loc re-attachment service securely rejoins your own loc to the base so you can keep your length. We will check the loc during your consultation to confirm it is a good candidate."}},
+        {"@type":"Question","name":"Do you work with ear-length and shoulder-length locs?","acceptedAnswer":{"@type":"Answer","text":"Absolutely. We care for locs of different lengths, from ear-length to shoulder-length, and customize every service to match your hair and your goals."}},
+        {"@type":"Question","name":"How do I book an appointment and when are you open?","acceptedAnswer":{"@type":"Answer","text":"Call (470) 421-9750, message us on WhatsApp, or use the booking link on our website. We are open Monday through Saturday, 9 AM to 5 PM, at 1864 Scenic Hwy N Ste 100, Snellville, GA 30078."}}
+      ]
+    }
+  ]
+}
+</script>
+
+<style>
+:root{
+  --ink:#1f2a2b;
+  --forest:#2f4a42;
+  --sage:#6f8f80;
+  --mist:#eef2ef;
+  --silver:#9aa3a0;
+  --bronze:#b08a5b;
+  --white:#fff;
+  --text:#4a5655;
+  --radius:6px;
+  --max:1200px;
+  --serif:'Cormorant Garamond',Georgia,'Times New Roman',serif;
+  --sans:'Jost','Helvetica Neue',Arial,sans-serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:var(--sans);color:var(--text);line-height:1.7;font-size:16px;background:#fff;overflow-x:hidden}
+img{max-width:100%;display:block}
+a{color:inherit;text-decoration:none}
+ul{list-style:none}
+:focus-visible{outline:3px solid var(--bronze);outline-offset:2px}
+.container{width:100%;max-width:var(--max);margin:0 auto;padding:0 20px}
+h1,h2,h3,h4{font-family:var(--serif);color:var(--ink);line-height:1.15;font-weight:600}
+h2{font-size:clamp(2rem,4vw,3rem)}
+.section{padding:80px 0}
+.section.alt{background:var(--mist)}
+.sec-head{text-align:center;max-width:720px;margin:0 auto 48px}
+.sec-head p{margin-top:12px}
+.btn{display:inline-block;background:var(--bronze);color:#fff;padding:13px 30px;border-radius:var(--radius);font-weight:500;letter-spacing:.3px;border:2px solid var(--bronze);transition:background .25s,color .25s;cursor:pointer;font-family:var(--sans);font-size:1rem}
+.btn:hover{background:transparent;color:var(--bronze)}
+.btn.light:hover{color:#fff;border-color:#fff}
+.btn.dark{background:var(--forest);border-color:var(--forest)}
+.btn.dark:hover{background:transparent;color:var(--forest)}
+
+/* ---------- Header ---------- */
+.topbar{background:var(--ink);color:#e6ebe9;font-size:.9rem}
+.topbar .container{display:flex;justify-content:space-between;align-items:center;gap:10px 24px;flex-wrap:wrap;padding-top:8px;padding-bottom:8px}
+.topbar ul{display:flex;gap:22px;flex-wrap:wrap;align-items:center}
+.topbar i{color:var(--bronze);margin-right:8px}
+.topbar .social a{display:inline-flex;align-items:center;gap:6px;transition:color .2s}
+.topbar .social a:hover{color:var(--bronze)}
+.topbar .social i{margin:0}
+.mainbar{background:#fff;position:sticky;top:0;z-index:900;box-shadow:0 2px 14px rgba(0,0,0,.07)}
+.mainbar .container{display:flex;justify-content:space-between;align-items:center;padding-top:10px;padding-bottom:10px}
+.brand{display:flex;align-items:center;gap:12px}
+.brand img{width:64px;height:64px;object-fit:contain}
+.brand span{font-family:var(--serif);font-size:1.5rem;font-weight:700;color:var(--ink);line-height:1.1}
+nav ul{display:flex;gap:6px;align-items:center}
+nav a{display:block;padding:10px 18px;font-weight:500;color:var(--ink);border-bottom:2px solid transparent;transition:color .2s,border-color .2s}
+nav a:hover,nav a.active{color:var(--bronze);border-color:var(--bronze)}
+.burger{display:none;background:none;border:0;font-size:1.7rem;color:var(--ink);cursor:pointer}
+
+/* ---------- Hero slider ---------- */
+.hero{position:relative;height:clamp(460px,78vh,720px);overflow:hidden;background:#000}
+.slide{position:absolute;inset:0;opacity:0;transition:opacity .9s ease;background-size:cover;background-position:center}
+.slide.on{opacity:1;z-index:1}
+.slide::before{content:"";position:absolute;inset:0;background:rgba(0,0,0,.5)}
+.slide .txt{position:relative;z-index:2;height:100%;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;color:#fff;padding:0 70px}
+.slide h1,.slide h2.h{color:#fff;font-size:clamp(2.3rem,6vw,4.6rem);max-width:900px;font-family:var(--serif);font-weight:600}
+.slide p{max-width:640px;margin:18px 0 28px;font-size:1.1rem;color:#f0f3f2}
+.arrow{position:absolute;top:50%;transform:translateY(-50%);z-index:5;width:48px;height:48px;border-radius:50%;border:1px solid rgba(255,255,255,.7);background:rgba(0,0,0,.3);color:#fff;font-size:1.1rem;cursor:pointer;transition:background .2s}
+.arrow:hover{background:var(--bronze);border-color:var(--bronze)}
+.arrow.prev{left:18px}.arrow.next{right:18px}
+.dots{position:absolute;bottom:22px;left:0;right:0;display:flex;justify-content:center;gap:10px;z-index:5}
+.dots button{width:12px;height:12px;border-radius:50%;border:2px solid #fff;background:transparent;cursor:pointer;padding:0}
+.dots button.on{background:var(--bronze);border-color:var(--bronze)}
+
+/* ---------- Page banner (inner pages) ---------- */
+.page-banner{position:relative;padding:110px 20px;text-align:center;color:#fff;background-size:cover;background-position:center}
+.page-banner::before{content:"";position:absolute;inset:0;background:rgba(0,0,0,.5)}
+.page-banner>*{position:relative}
+.page-banner h1{color:#fff;font-size:clamp(2.4rem,6vw,4rem)}
+.page-banner p{max-width:620px;margin:14px auto 0;color:#eef2ef}
+
+/* ---------- Split layouts ---------- */
+.split{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:center}
+.split img{width:100%;height:100%;max-height:520px;object-fit:cover;border-radius:var(--radius)}
+.split h2{margin-bottom:18px}
+.split p{margin-bottom:16px}
+.split .btn{margin-top:10px}
+.split.flip .col-img{order:-1}
+
+/* ---------- Services ---------- */
+.grid4{display:grid;grid-template-columns:repeat(4,1fr);gap:26px}
+.card{background:#fff;border-radius:var(--radius);overflow:hidden;box-shadow:0 6px 24px rgba(31,42,43,.08);display:flex;flex-direction:column}
+.card .pic{position:relative;aspect-ratio:4/3;overflow:hidden}
+.card .pic img{width:100%;height:100%;object-fit:cover;transition:transform .5s}
+.card .pic::after{content:"\f06c";font-family:"Font Awesome 6 Free";font-weight:900;position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font-size:2rem;color:#fff;background:rgba(47,74,66,.72);opacity:0;transition:opacity .35s}
+.card:hover .pic::after{opacity:1}
+.card:hover .pic img{transform:scale(1.07)}
+.card .body{padding:22px;display:flex;flex-direction:column;flex:1}
+.card h3{font-size:1.55rem;margin-bottom:10px}
+.card p{font-size:.95rem;flex:1;margin-bottom:18px}
+.card .btn{align-self:flex-start;padding:10px 22px;font-size:.92rem}
+
+/* ---------- Why choose us ---------- */
+.why-list{display:grid;gap:22px;margin-top:26px}
+.why-list li{display:flex;gap:16px}
+.why-list i{flex:none;width:46px;height:46px;border-radius:50%;background:var(--forest);color:#fff;display:flex;align-items:center;justify-content:center}
+.why-list h4{font-size:1.35rem;margin-bottom:2px}
+.why-list p{margin:0;font-size:.95rem}
+
+/* ---------- Process (services page) ---------- */
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:24px;counter-reset:s}
+.step{background:#fff;padding:28px 24px;border-radius:var(--radius);border-top:4px solid var(--bronze);counter-increment:s;box-shadow:0 6px 24px rgba(31,42,43,.07)}
+.step::before{content:counter(s);font-family:var(--serif);font-size:2.6rem;color:var(--bronze);display:block;line-height:1}
+.step h3{font-size:1.4rem;margin:8px 0}
+.step p{font-size:.95rem}
+
+/* ---------- Reviews ---------- */
+.rev-wrap{position:relative;padding:0 56px}
+.rev-view{overflow:hidden}
+.rev-track{display:flex;transition:transform .6s ease}
+.rev{flex:none;padding:0 12px}
+.rev-in{background:#fff;border-radius:var(--radius);padding:30px 26px;height:100%;box-shadow:0 6px 24px rgba(31,42,43,.08);border-left:4px solid var(--sage)}
+.stars{color:var(--bronze);margin-bottom:12px;letter-spacing:2px}
+.rev-in p{font-style:italic;margin-bottom:18px;font-size:.98rem}
+.who{display:flex;align-items:center;gap:12px}
+.who b{width:44px;height:44px;border-radius:50%;background:var(--forest);color:#fff;display:flex;align-items:center;justify-content:center;font-family:var(--serif);font-size:1.2rem}
+.who strong{display:block;color:var(--ink);line-height:1.2}
+.who small{color:var(--silver)}
+.rev-arrow{position:absolute;top:50%;transform:translateY(-50%);width:42px;height:42px;border-radius:50%;border:1px solid var(--forest);background:#fff;color:var(--forest);cursor:pointer;transition:.2s}
+.rev-arrow:hover{background:var(--forest);color:#fff}
+.rev-arrow.prev{left:0}.rev-arrow.next{right:0}
+.rev-dots{display:flex;justify-content:center;gap:10px;margin-top:26px}
+.rev-dots button{width:12px;height:12px;border-radius:50%;border:2px solid var(--forest);background:transparent;cursor:pointer;padding:0}
+.rev-dots button.on{background:var(--forest)}
+
+/* ---------- FAQ ---------- */
+.faq-list{display:grid;gap:12px}
+details{background:#fff;border:1px solid #d9e0dc;border-radius:var(--radius);overflow:hidden}
+details[open]{border-color:var(--sage)}
+summary{list-style:none;cursor:pointer;padding:18px 22px;font-weight:500;color:var(--ink);display:flex;justify-content:space-between;align-items:center;gap:14px}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"\f078";font-family:"Font Awesome 6 Free";font-weight:900;font-size:.8rem;color:var(--bronze);transition:transform .3s;flex:none}
+details[open] summary::after{transform:rotate(180deg)}
+details .ans{padding:0 22px 20px;font-size:.97rem}
+
+/* ---------- Contact ---------- */
+.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:stretch}
+.c-list{display:grid;gap:20px;margin-top:22px}
+.c-list li{display:flex;gap:16px;align-items:flex-start}
+.c-list i{flex:none;width:46px;height:46px;border-radius:50%;background:var(--forest);color:#fff;display:flex;align-items:center;justify-content:center}
+.c-list b{display:block;color:var(--ink);font-family:var(--serif);font-size:1.25rem;line-height:1.2}
+.c-list a:hover{color:var(--bronze)}
+.map iframe{width:100%;height:100%;min-height:380px;border:0;border-radius:var(--radius)}
+form.cform{display:grid;gap:14px;margin-top:22px}
+form.cform input,form.cform textarea{width:100%;padding:13px 15px;border:1px solid #cfd8d4;border-radius:var(--radius);font:inherit;color:var(--ink)}
+form.cform textarea{min-height:120px;resize:vertical}
+
+/* ---------- Footer ---------- */
+footer{background:var(--ink);color:#d3dad8}
+.foot{display:grid;grid-template-columns:repeat(3,1fr);gap:40px;padding:70px 0 50px}
+.foot img{width:90px;height:90px;object-fit:contain;background:#fff;border-radius:50%;padding:6px;margin-bottom:16px}
+.foot h4{color:#fff;font-size:1.6rem;margin-bottom:16px}
+.foot p{font-size:.95rem;margin-bottom:18px}
+.foot li{margin-bottom:10px}
+.foot nav-links a:hover,.foot li a:hover{color:var(--bronze)}
+.foot .ci li{display:flex;gap:12px;align-items:flex-start}
+.foot .ci i{color:var(--bronze);margin-top:6px;width:18px;text-align:center}
+.copy{border-top:1px solid rgba(255,255,255,.12);text-align:center;padding:20px;font-size:.92rem}
+
+/* ---------- WhatsApp ---------- */
+.wa{position:fixed;right:20px;bottom:20px;z-index:1000;width:60px;height:60px;border-radius:50%;background:#25d366;color:#fff;display:flex;align-items:center;justify-content:center;font-size:2rem;box-shadow:0 6px 18px rgba(0,0,0,.3);transition:transform .2s}
+.wa:hover{transform:scale(1.08)}
+
+/* ---------- Pages ---------- */
+.page{display:none}
+.page.show{display:block}
+
+/* ---------- Responsive ---------- */
+@media(max-width:1100px){
+  .grid4{grid-template-columns:repeat(2,1fr)}
+  .steps{grid-template-columns:repeat(2,1fr)}
+}
+@media(max-width:900px){
+  .burger{display:block}
+  nav{position:absolute;top:100%;left:0;right:0;background:#fff;box-shadow:0 10px 20px rgba(0,0,0,.1);max-height:0;overflow:hidden;transition:max-height .35s}
+  nav.open{max-height:360px}
+  nav ul{flex-direction:column;align-items:stretch;gap:0;padding:8px 20px 16px}
+  nav a{padding:14px 0;border-bottom:1px solid #eef2ef}
+  .split,.contact-grid{grid-template-columns:1fr;gap:34px}
+  .split.flip .col-img{order:0}
+  .foot{grid-template-columns:1fr;gap:34px}
+  .section{padding:60px 0}
+}
+@media(max-width:640px){
+  .grid4,.steps{grid-template-columns:1fr}
+  .topbar .container{justify-content:center;text-align:center}
+  .topbar ul{justify-content:center;gap:8px 16px}
+  .brand img{width:52px;height:52px}
+  .brand span{font-size:1.2rem}
+  .slide .txt{padding:0 56px}
+  .arrow{width:38px;height:38px}
+  .arrow.prev{left:8px}.arrow.next{right:8px}
+  .rev-wrap{padding:0 0 56px}
+  .rev-arrow{top:auto;bottom:0;transform:none}
+  .rev-arrow.prev{left:calc(50% - 90px)}.rev-arrow.next{right:calc(50% - 90px)}
+  .rev-dots{margin-top:-30px;position:relative;z-index:1;height:42px;align-items:center}
+  .page-banner{padding:80px 20px}
+}
+@media(prefers-reduced-motion:reduce){
+  *{transition:none!important;scroll-behavior:auto!important}
+}
+</style>
+</head>
+<body>
+
+<!-- ================= HEADER ================= -->
+<header>
+  <div class="topbar">
+    <div class="container">
+      <ul>
+        <li><a href="tel:+14704219750"><i class="fa-solid fa-phone"></i>(470) 421-9750</a></li>
+        <li><a href="mailto:glamourgirlnaturalhair@gmail.com"><i class="fa-solid fa-envelope"></i>glamourgirlnaturalhair@gmail.com</a></li>
+      </ul>
+      <ul class="social">
+        <!-- Replace the Facebook and Instagram URLs with the business's real profile links -->
+        <li><a href="https://www.facebook.com/search/top?q=Glamourgirl%20Natural%20Beauty%20LLC" target="_blank" rel="noopener" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i> Facebook</a></li>
+        <li><a href="https://www.instagram.com/explore/search/keyword/?q=Glamourgirl%20Natural%20Beauty" target="_blank" rel="noopener" aria-label="Instagram"><i class="fa-brands fa-instagram"></i> Instagram</a></li>
+        <li><a href="https://www.google.com/maps/place/Glamourgirl+Natural+Beauty+LLC/@33.8749022,-84.0125104,554m/data=!3m1!1e3!4m8!3m7!1s0x88f5b9b04cf8611f:0x69f025fea23862e7!8m2!3d33.8749022!4d-84.0125104!9m1!1b1!16s%2Fg%2F11zyg7nzzf!5m1!1e1?entry=ttu&g_ep=EgoyMDI2MTAxNC4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener" aria-label="Google reviews"><i class="fa-brands fa-google"></i> Reviews</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="mainbar">
+    <div class="container">
+      <a href="#home" class="brand" data-link>
+        <img src="Glamourgirl Natural Beauty LLC Logo.jpg" alt="Glamourgirl Natural Beauty LLC logo">
+        
+      </a>
+      <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false"><i class="fa-solid fa-bars"></i></button>
+      <nav id="nav" aria-label="Main menu">
+        <ul>
+          <li><a href="#home" data-link>Home</a></li>
+          <li><a href="#about" data-link>About Us</a></li>
+          <li><a href="#services" data-link>Services</a></li>
+          <li><a href="#contact" data-link>Contact Us</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>
+
+<main>
+
+<!-- ================= PAGE 1: HOME ================= -->
+<div class="page" id="page-home">
+
+  <!-- Hero slider -->
+  <section class="hero" aria-label="Featured services">
+    <div class="slide on" style="background-image:url('https://plus.unsplash.com/premium_photo-1661963320607-aebac6fcb40d?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D')">
+      <div class="txt">
+        <h1>Healthy, Beautiful Locs in Snellville, GA</h1>
+        <p>Start with a personalized consultation and leave with a care plan built around your locs, your lifestyle and your goals.</p>
+        <a class="btn" href="https://g.page/r/CediOKL-JfBpEBM/" target="_blank" rel="noopener">Book Your Consultation</a>
+      </div>
+    </div>
+    <div class="slide" style="background-image:url('https://images.unsplash.com/photo-1675034743339-0b0747047727?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D')">
+      <div class="txt">
+        <h2 class="h">Detox Your Locs, Feel the Difference</h2>
+        <p>Release trapped residue and buildup so your locs feel lighter, fresher and full of natural movement.</p>
+        <a class="btn" href="#services" data-link>Explore Detox Care</a>
+      </div>
+    </div>
+    <div class="slide" style="background-image:url('https://images.unsplash.com/photo-1717160675489-7779f2c91999?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D')">
+      <div class="txt">
+        <h2 class="h">A Detoxifying Wash That Truly Cleanses</h2>
+        <p>Residue-free products lift oil, dirt and film from every loc while keeping your scalp calm and moisturized.</p>
+        <a class="btn" href="#services" data-link>See Our Services</a>
+      </div>
+    </div>
+    <div class="slide" style="background-image:url('https://images.unsplash.com/photo-1643837833100-8b2ebd7127bc?q=80&w=945&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D')">
+      <div class="txt">
+        <h2 class="h">Scalp Scraping for a Fresh Start</h2>
+        <p>Gentle, careful scalp care that clears flakes and buildup, so healthy growth starts right at the root.</p>
+        <a class="btn" href="#contact" data-link>Contact Us Today</a>
+      </div>
+    </div>
+    <button class="arrow prev" aria-label="Previous slide"><i class="fa-solid fa-chevron-left"></i></button>
+    <button class="arrow next" aria-label="Next slide"><i class="fa-solid fa-chevron-right"></i></button>
+    <div class="dots" role="tablist"></div>
+  </section>
+
+  <!-- About -->
+  <section class="section">
+    <div class="container split">
+      <div>
+        <h2>About Glamourgirl Natural Beauty LLC</h2>
+        <p>Welcome to Glamourgirl Natural Beauty LLC, your destination for healthy, beautiful, and well-maintained locs in Snellville, GA!</p>
+        <p>We specialize in personalized consultations, detox, detoxifying washes, scalp scraping, deep conditioning, lint and buildup removal, loc re-attachment, and interlocking.</p>
+        <p>Whether you prefer ear-length or shoulder-length locs, our goal is to enhance your natural beauty with attentive care and customized services.</p>
+        <a class="btn" href="https://g.page/r/CediOKL-JfBpEBM/" target="_blank" rel="noopener">About Us</a>
+      </div>
+      <div class="col-img"><img src="https://plus.unsplash.com/premium_photo-1661587329310-dff2888a7e6d?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D" alt="Loc care at Glamourgirl Natural Beauty" loading="lazy"></div>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section class="section alt">
+    <div class="container">
+      <div class="sec-head">
+        <h2>Our Loc Care Services</h2>
+        <p>Eight specialized services, each tailored to keep your locs clean, strong and beautiful.</p>
+      </div>
+      <div class="grid4 services-mount"></div>
+    </div>
+  </section>
+
+  <!-- Why choose us -->
+  <section class="section">
+    <div class="container split flip">
+      <div>
+        <h2>Why You Choose Us</h2>
+        <p>Your locs are personal. We treat every appointment that way.</p>
+        <ul class="why-list why-mount"></ul>
+      </div>
+      <div class="col-img"><img src="https://images.unsplash.com/photo-1717160675643-53a7a2ebaa9f?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D" alt="Detoxifying wash for locs" loading="lazy"></div>
+    </div>
+  </section>
+
+  <!-- Reviews -->
+  <section class="section alt">
+    <div class="container">
+      <div class="sec-head"><h2>Customer Reviews</h2><p>Kind words from the clients who trust us with their locs.</p></div>
+      <div class="rev-mount"></div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section">
+    <div class="container">
+      <div class="sec-head"><h2>Frequently Asked Questions</h2></div>
+      <div class="split">
+        <div class="faq-list faq-mount"></div>
+        <div class="col-img"><img src="https://images.unsplash.com/photo-1587225438173-701d7edc94f9?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D" alt="Scalp scraping service" loading="lazy"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="section alt">
+    <div class="container">
+      <div class="sec-head"><h2>Contact Us</h2></div>
+      <div class="contact-grid contact-mount"></div>
+    </div>
+  </section>
+</div>
+
+<!-- ================= PAGE 2: ABOUT ================= -->
+<div class="page" id="page-about">
+  <section class="page-banner" style="background-image:url('https://images.unsplash.com/photo-1580618672591-eb180b1a973f?q=80&w=869&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D')">
+    <h1>About Us</h1>
+    <p>Where attentive care meets natural beauty.</p>
+  </section>
+
+  <section class="section">
+    <div class="container split">
+      <div class="col-img"><img src="https://images.unsplash.com/photo-1629397685944-7073f5589754?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D" alt="Personalized loc consultation" loading="lazy"></div>
+      <div>
+        <h2>Our Story</h2>
+        <p>Glamourgirl Natural Beauty LLC was created for people who want their locs to look good and feel even better. Based in Snellville, Georgia, we focus completely on loc health, from the scalp to the tips.</p>
+        <p>Every visit begins with a conversation. We learn about your hair, your routine and your goals, then build a service plan that fits you, whether your locs are ear-length or shoulder-length.</p>
+        <p>From detox and deep conditioning to re-attachment and interlocking, our work is gentle, detailed and always done with your natural beauty in mind.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section alt">
+    <div class="container split flip">
+      <div>
+        <h2>Our Promise</h2>
+        <p>We believe healthy locs begin with a healthy scalp. That is why every service is gentle, unhurried and explained in plain language, so you always know what we are doing and why.</p>
+        <p>We use hair-friendly techniques and residue-free products, and we never push services you do not need. Your comfort, your hair health and your trust come first.</p>
+        <a class="btn dark" href="https://g.page/r/CediOKL-JfBpEBM/" target="_blank" rel="noopener">Book Your Appointment</a>
+      </div>
+      <div class="col-img"><img src="https://images.unsplash.com/photo-1595476108010-b4d1f102b1b1?q=80&w=388&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D" alt="Healthy, well-maintained locs" loading="lazy"></div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="sec-head"><h2>Why You Choose Us</h2></div>
+      <ul class="why-list why-mount" style="grid-template-columns:repeat(auto-fit,minmax(280px,1fr))"></ul>
+    </div>
+  </section>
+
+  <section class="section alt">
+    <div class="container">
+      <div class="sec-head"><h2>Customer Reviews</h2><p>Real experiences from our Snellville clients.</p></div>
+      <div class="rev-mount"></div>
+    </div>
+  </section>
+</div>
+
+<!-- ================= PAGE 3: SERVICES ================= -->
+<div class="page" id="page-services">
+  <section class="page-banner" style="background-image:url('https://images.unsplash.com/photo-1757866332531-788d9bc789a7?q=80&w=464&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D')">
+    <h1>Our Services</h1>
+    <p>Complete loc care, from your first consultation to your final finishing touches.</p>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="sec-head">
+        <h2>Care Your Locs Deserve</h2>
+        <p>Choose a single service or combine several. We will recommend the right mix during your consultation.</p>
+      </div>
+      <div class="grid4 services-mount"></div>
+    </div>
+  </section>
+
+  <section class="section alt">
+    <div class="container">
+      <div class="sec-head"><h2>How Your Visit Works</h2></div>
+      <div class="steps">
+        <div class="step"><h3>Consult</h3><p>We review your scalp, loc size, texture and goals, then agree on a plan together.</p></div>
+        <div class="step"><h3>Cleanse</h3><p>A detox or detoxifying wash clears residue, oil and minerals from scalp and locs.</p></div>
+        <div class="step"><h3>Restore</h3><p>Scalp scraping, deep conditioning and lint removal bring back comfort and shine.</p></div>
+        <div class="step"><h3>Finish</h3><p>Interlocking or re-attachment tidies and secures your locs, and we share aftercare tips.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="sec-head"><h2>Frequently Asked Questions</h2></div>
+      <div class="split">
+        <div class="faq-list faq-mount"></div>
+        <div class="col-img"><img src="https://images.unsplash.com/photo-1717160675489-7779f2c91999?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D" alt="Detoxifying wash service" loading="lazy"></div>
+      </div>
+    </div>
+  </section>
+</div>
+
+<!-- ================= PAGE 4: CONTACT ================= -->
+<div class="page" id="page-contact">
+  <section class="page-banner" style="background-image:url('https://images.unsplash.com/photo-1675034743339-0b0747047727?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D')">
+    <h1>Contact Us</h1>
+    <p>Questions or ready to book? We would love to hear from you.</p>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="sec-head"><h2>Visit or Message Us</h2></div>
+      <div class="contact-grid contact-mount"></div>
+    </div>
+  </section>
+
+  <section class="section alt">
+    <div class="container split">
+      <div>
+        <h2>Send Us a Message</h2>
+        <p>Tell us about your locs and what you are looking for. Your message opens in your email app, addressed to our team, and we will reply as soon as we can.</p>
+        <form class="cform" id="cform">
+          <input type="text" name="name" placeholder="Your name" required aria-label="Your name">
+          <input type="tel" name="phone" placeholder="Phone number" aria-label="Phone number">
+          <input type="email" name="email" placeholder="Email address" required aria-label="Email address">
+          <textarea name="msg" placeholder="How can we help?" required aria-label="Message"></textarea>
+          <button class="btn dark" type="submit">Send Message</button>
+        </form>
+      </div>
+      <div class="col-img"><img src="https://plus.unsplash.com/premium_photo-1661963320607-aebac6fcb40d?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D" alt="Consultation at Glamourgirl Natural Beauty" loading="lazy"></div>
+    </div>
+  </section>
+</div>
+
+</main>
+
+<!-- ================= FOOTER ================= -->
+<footer>
+  <div class="container foot">
+    <div>
+      <img src="Glamourgirl Natural Beauty LLC Logo.jpg" alt="Glamourgirl Natural Beauty LLC logo">
+      <p>Glamourgirl Natural Beauty LLC in Snellville, GA offers personalized loc care, including detox, scalp scraping, deep conditioning, re-attachment and interlocking. Let us help your locs look healthy, neat and beautiful every day.</p>
+      <a class="btn" href="https://g.page/r/CediOKL-JfBpEBM/" target="_blank" rel="noopener">Join Us</a>
+    </div>
+    <div>
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="#home" data-link>Home</a></li>
+        <li><a href="#about" data-link>About Us</a></li>
+        <li><a href="#services" data-link>Services</a></li>
+        <li><a href="#contact" data-link>Contact</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Contact Information</h4>
+      <ul class="ci">
+        <li><i class="fa-solid fa-envelope"></i><a href="mailto:glamourgirlnaturalhair@gmail.com">glamourgirlnaturalhair@gmail.com</a></li>
+        <li><i class="fa-solid fa-phone"></i><a href="tel:+14704219750">(470) 421-9750</a></li>
+        <li><i class="fa-solid fa-location-dot"></i><span>1864 Scenic Hwy N Ste 100, Snellville, GA, 30078, USA</span></li>
+        <li><i class="fa-solid fa-clock"></i><span>Mon - Sat, 9 AM - 5 PM</span></li>
+      </ul>
+    </div>
+  </div>
+  <div class="copy">© 2026 All Rights Reserved By The Ranking Geeks</div>
+</footer>
+
+<!-- WhatsApp (bottom right) -->
+<a class="wa" href="https://wa.me/14704219750" target="_blank" rel="noopener" aria-label="Chat on WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+
+<script>
+/* ============ DATA ============ */
+const GMB = "https://g.page/r/CediOKL-JfBpEBM/";
+
+const services = [
+  {t:"Consultations", img:"https://images.unsplash.com/photo-1629397685944-7073f5589754?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D",
+   d:"Every healthy loc journey begins with a conversation. During your personalized consultation, we examine your scalp, hair texture, loc size and growth pattern, then discuss your goals and lifestyle. You leave with a clear, customized care plan and honest recommendations designed to keep your locs strong, neat and beautiful."},
+  {t:"Detox", img:"https://images.unsplash.com/photo-1595476108010-b4d1f102b1b1?q=80&w=388&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D",
+   d:"Product residue and hard-water minerals can leave locs heavy, dull and slow to dry. Our detox service draws out trapped buildup deep inside each loc, restoring lightness, freshness and natural movement. It is the perfect reset for locs that feel weighed down, smell stale or simply need renewed life."},
+  {t:"Detoxifying Wash", img:"https://images.unsplash.com/photo-1717160675643-53a7a2ebaa9f?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D",
+   d:"Our detoxifying wash gently cleanses the scalp and every loc using specialized, residue-free products. It lifts oil, dirt and product film without stripping moisture, leaving your scalp refreshed and your locs clean, soft and light. Enjoy a relaxing wash experience that supports healthy, steady loc growth."},
+  {t:"Scalp Scraping", img:"https://images.unsplash.com/photo-1587225438173-701d7edc94f9?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D",
+   d:"Scalp scraping carefully removes flakes, dead skin and stubborn buildup from the scalp using safe, gentle techniques. A clear scalp breathes better, itches less and supports healthier growth at the roots. Enjoy a soothing treatment that leaves your scalp feeling balanced, comfortable and truly refreshed."},
+  {t:"Deep Conditioning", img:"https://images.unsplash.com/photo-1580618672591-eb180b1a973f?q=80&w=869&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D",
+   d:"Restore moisture and strength with our nourishing deep conditioning treatment. Rich, loc-friendly conditioners penetrate each strand to soften dryness, reduce breakage and boost natural shine. Your locs leave hydrated, supple and resilient, ready to hold their style while staying comfortable, healthy and beautifully full of life."},
+  {t:"Lint & Buildup Removal", img:"https://images.unsplash.com/photo-1757866332531-788d9bc789a7?q=80&w=464&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D",
+   d:"Lint, fuzz and trapped debris can make locs look dull and feel heavy. Our careful removal process clears lint and stubborn buildup from the surface and within each loc, without damaging the hair. The result is a cleaner, smoother, brighter look and locs that feel noticeably lighter."},
+  /* No dedicated photos were supplied for the last two services, so two of the provided banner photos are reused. */
+  {t:"Loc Re-Attachment", img:"https://images.unsplash.com/photo-1675034743339-0b0747047727?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D",
+   d:"Broken or detached locs do not have to mean losing length. Our skilled re-attachment service securely rejoins your own locs to the base using careful, hair-friendly techniques. Preserve your length and your journey while enjoying a seamless, natural-looking result that blends in comfortably and lasts."},
+  {t:"Interlocking", img:"https://images.unsplash.com/photo-1643837833100-8b2ebd7127bc?q=80&w=945&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D",
+   d:"Interlocking keeps new growth neat, tight and secure while maintaining a clean, uniform appearance. Our precise technique weaves each loc root back into place, supporting healthy structure and long-lasting definition. Perfect for ear-length or shoulder-length locs, it delivers a polished look with comfort and care."}
+];
+
+const why = [
+  {i:"fa-comments", t:"Personalized Consultations", d:"Every plan starts with your scalp, your locs and your goals."},
+  {i:"fa-leaf", t:"Gentle, Hair-Friendly Care", d:"Residue-free products and careful techniques protect your locs."},
+  {i:"fa-ruler", t:"Ear-Length to Shoulder-Length", d:"Customized services for the length and stage your locs are in."},
+  {i:"fa-heart", t:"Attentive, Welcoming Service", d:"Relaxed appointments where your comfort always comes first."}
+];
+
+const reviews = [
+  {n:"Jasmine Carter", c:"Atlanta, GA", t:"My locs have never felt this light! The detox wash removed so much buildup and my scalp feels amazing. I already booked my next visit."},
+  {n:"Marcus Johnson", c:"Snellville, GA", t:"Very professional and gentle. The consultation was thorough and she explained exactly what my locs needed. Highly recommend to anyone in the area."},
+  {n:"Tiffany Williams", c:"Lawrenceville, GA", t:"The scalp scraping and deep conditioning were so relaxing. My locs are soft, shiny and healthy. Best loc care I have found in Georgia."},
+  {n:"Andre Robinson", c:"Lilburn, GA", t:"She re-attached a loc I thought I had lost for good. You cannot even tell it was ever broken. I am so grateful for the care and patience."},
+  {n:"Danielle Brooks", c:"Stone Mountain, GA", t:"Clean, friendly and detailed. My interlocking looks neat and uniform, and my locs feel stronger. I leave every appointment feeling confident."},
+  {n:"Terrence Jackson", c:"Decatur, GA", t:"Lint removal made a huge difference. My locs look brighter and feel so much cleaner. Great service, fair pricing and a warm atmosphere."}
+];
+
+const faqs = [
+  {q:"What happens during a loc consultation?", a:"We examine your scalp, loc size, texture and growth pattern, talk through your goals and routine, and give you a personalized care plan with honest recommendations before any service begins."},
+  {q:"How often should I get a detox or detoxifying wash?", a:"Most clients benefit from a detox every 6 to 8 weeks. If you use a lot of products or live with hard water, we may suggest more frequent visits. Your consultation will help us set the right schedule."},
+  {q:"Is scalp scraping safe and does it hurt?", a:"Yes. We use gentle, safe techniques to lift flakes and buildup from the scalp. Most clients find it relaxing and comfortable, and it helps the scalp feel lighter and cleaner."},
+  {q:"Can you re-attach a broken or detached loc?", a:"In most cases, yes. Our loc re-attachment service securely rejoins your own loc to the base so you can keep your length. We will check the loc during your consultation to confirm it is a good candidate."},
+  {q:"Do you work with ear-length and shoulder-length locs?", a:"Absolutely. We care for locs of different lengths, from ear-length to shoulder-length, and customize every service to match your hair and your goals."},
+  {q:"How do I book an appointment and when are you open?", a:"Call (470) 421-9750, message us on WhatsApp, or use the booking link on our website. We are open Monday through Saturday, 9 AM to 5 PM, at 1864 Scenic Hwy N Ste 100, Snellville, GA 30078."}
+];
+
+const MAP = '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2411.104328319227!2d-84.0125104!3d33.8749022!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f5b9b04cf8611f%3A0x69f025fea23862e7!2sGlamourgirl%20Natural%20Beauty%20LLC!5e1!3m2!1sen!2s!4v1792515057063!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" title="Glamourgirl Natural Beauty LLC on Google Maps"></iframe>';
+
+/* ============ RENDER SHARED BLOCKS ============ */
+document.querySelectorAll('.services-mount').forEach(el=>{
+  el.innerHTML = services.map(s=>`
+    <article class="card">
+      <div class="pic"><img src="${s.img}" alt="${s.t} service" loading="lazy"></div>
+      <div class="body">
+        <h3>${s.t.replace('&','&amp;')}</h3>
+        <p>${s.d}</p>
+        <a class="btn" href="${GMB}" target="_blank" rel="noopener">Learn More</a>
+      </div>
+    </article>`).join('');
+});
+
+document.querySelectorAll('.why-mount').forEach(el=>{
+  el.innerHTML = why.map(w=>`<li><i class="fa-solid ${w.i}"></i><div><h4>${w.t}</h4><p>${w.d}</p></div></li>`).join('');
+});
+
+document.querySelectorAll('.faq-mount').forEach(el=>{
+  el.innerHTML = faqs.map((f,i)=>`<details${i===0?' open':''}><summary>${f.q}</summary><div class="ans">${f.a}</div></details>`).join('');
+});
+
+document.querySelectorAll('.contact-mount').forEach(el=>{
+  el.innerHTML = `
+    <div>
+      <h2 style="font-size:2rem">Glamourgirl Natural Beauty LLC</h2>
+      <ul class="c-list">
+        <li><i class="fa-solid fa-phone"></i><div><b>Phone</b><a href="tel:+14704219750">(470) 421-9750</a></div></li>
+        <li><i class="fa-solid fa-envelope"></i><div><b>Email</b><a href="mailto:glamourgirlnaturalhair@gmail.com">glamourgirlnaturalhair@gmail.com</a></div></li>
+        <li><i class="fa-solid fa-location-dot"></i><div><b>Address</b>1864 Scenic Hwy N Ste 100, Snellville, GA, 30078, USA</div></li>
+        <li><i class="fa-solid fa-clock"></i><div><b>Business Hours</b>Mon - Sat, 9 AM - 5 PM</div></li>
+      </ul>
+    </div>
+    <div class="map">${MAP}</div>`;
+});
+
+/* ============ REVIEWS SLIDER ============ */
+document.querySelectorAll('.rev-mount').forEach(mount=>{
+  mount.innerHTML = `
+    <div class="rev-wrap">
+      <button class="rev-arrow prev" aria-label="Previous reviews"><i class="fa-solid fa-chevron-left"></i></button>
+      <div class="rev-view"><div class="rev-track">
+        ${reviews.map(r=>`
+          <div class="rev"><div class="rev-in">
+            <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+            <p>“${r.t}”</p>
+            <div class="who"><b>${r.n[0]}</b><div><strong>${r.n}</strong><small>${r.c}</small></div></div>
+          </div></div>`).join('')}
+      </div></div>
+      <button class="rev-arrow next" aria-label="Next reviews"><i class="fa-solid fa-chevron-right"></i></button>
+    </div>
+    <div class="rev-dots"></div>`;
+
+  const track = mount.querySelector('.rev-track');
+  const items = [...track.children];
+  const dotsBox = mount.querySelector('.rev-dots');
+  let per = 3, page = 0, pages = 2;
+
+  function layout(){
+    const w = window.innerWidth;
+    per = w > 900 ? 3 : (w > 640 ? 2 : 1);
+    pages = Math.ceil(items.length / per);
+    if(page >= pages) page = pages - 1;
+    items.forEach(i=> i.style.width = (100/per) + '%');
+    dotsBox.innerHTML = Array.from({length:pages},(_,i)=>`<button aria-label="Go to reviews ${i+1}" class="${i===page?'on':''}"></button>`).join('');
+    dotsBox.querySelectorAll('button').forEach((b,i)=> b.onclick=()=>go(i));
+    go(page);
+  }
+  function go(p){
+    page = (p + pages) % pages;
+    /* slide by whole pages; last page shifts so no empty space shows */
+    const start = Math.min(page*per, items.length - per);
+    track.style.transform = `translateX(-${start*(100/per)}%)`;
+    dotsBox.querySelectorAll('button').forEach((b,i)=> b.classList.toggle('on', i===page));
+  }
+  mount.querySelector('.prev').onclick = ()=> go(page-1);
+  mount.querySelector('.next').onclick = ()=> go(page+1);
+  window.addEventListener('resize', layout);
+  layout();
+});
+
+/* ============ HERO SLIDER ============ */
+(function(){
+  const hero = document.querySelector('.hero');
+  const slides = [...hero.querySelectorAll('.slide')];
+  const dotsBox = hero.querySelector('.dots');
+  let cur = 0, timer;
+  dotsBox.innerHTML = slides.map((_,i)=>`<button aria-label="Show slide ${i+1}"></button>`).join('');
+  const dots = [...dotsBox.children];
+  function show(i){
+    cur = (i + slides.length) % slides.length;
+    slides.forEach((s,k)=>s.classList.toggle('on', k===cur));
+    dots.forEach((d,k)=>d.classList.toggle('on', k===cur));
+  }
+  function auto(){ clearInterval(timer); timer = setInterval(()=>show(cur+1), 6000); }
+  hero.querySelector('.prev').onclick = ()=>{ show(cur-1); auto(); };
+  hero.querySelector('.next').onclick = ()=>{ show(cur+1); auto(); };
+  dots.forEach((d,k)=> d.onclick = ()=>{ show(k); auto(); });
+  show(0); auto();
+})();
+
+/* ============ PAGE ROUTER ============ */
+const titles = {
+  home:"Glamourgirl Natural Beauty LLC | Loc Care in Snellville, GA",
+  about:"About Us | Glamourgirl Natural Beauty LLC",
+  services:"Loc Care Services | Glamourgirl Natural Beauty LLC",
+  contact:"Contact Us | Glamourgirl Natural Beauty LLC"
+};
+function route(){
+  let id = location.hash.replace('#','');
+  if(!titles[id]) id = 'home';
+  document.querySelectorAll('.page').forEach(p=>p.classList.toggle('show', p.id === 'page-'+id));
+  document.querySelectorAll('nav a').forEach(a=>a.classList.toggle('active', a.getAttribute('href') === '#'+id));
+  document.title = titles[id];
+  window.scrollTo(0,0);
+  nav.classList.remove('open');
+  burger.setAttribute('aria-expanded','false');
+}
+const nav = document.getElementById('nav');
+const burger = document.getElementById('burger');
+burger.onclick = ()=>{
+  const open = nav.classList.toggle('open');
+  burger.setAttribute('aria-expanded', open);
+};
+window.addEventListener('hashchange', route);
+route();
+
+/* ============ CONTACT FORM (opens email app) ============ */
+document.getElementById('cform').addEventListener('submit', e=>{
+  e.preventDefault();
+  const f = e.target;
+  const body = `Name: ${f.name.value}\nPhone: ${f.phone.value}\nEmail: ${f.email.value}\n\n${f.msg.value}`;
+  location.href = 'mailto:glamourgirlnaturalhair@gmail.com?subject=' + encodeURIComponent('Website enquiry from ' + f.name.value) + '&body=' + encodeURIComponent(body);
+});
+</script>
+</body>
+</html>
